@@ -12,3 +12,5 @@ For Output files, go to tsconfig and search outDir
 tsc --watch to compile on auto
 
 when not having ts files in main folder where tsconfig is then go into tsconfig and change rootdir
+
+Turn on Declaration from tsconfig to have the filename.d.ts file with compiled js to know functions parameters & returning types
