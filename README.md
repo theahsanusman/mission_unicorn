@@ -1,1 +1,1 @@
-Pracitcing Type Script
+Real time Chat Application with TypeScript, React, Socket.io, & NodeJs
