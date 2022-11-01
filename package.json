@@ -4,7 +4,7 @@
   "description": "This repo is for storing practice code of new/existing technologies to create unicorns!",
   "main": "chap 1.js",
   "scripts": {
-    "dev": "nodemon --watch './**/*.ts' --exec 'ts-node' ./src/masterclass.ts"
+    "dev": "nodemon --watch './**/*.ts' --exec 'ts-node' ./src/quiz1.ts"
   },
   "repository": {
     "type": "git",
