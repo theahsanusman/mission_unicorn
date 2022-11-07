@@ -1,2 +1,0 @@
-const shared = 'Cher';
-export {};

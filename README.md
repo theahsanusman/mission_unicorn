@@ -1,1 +1,0 @@
-Pracitcing Type Script
