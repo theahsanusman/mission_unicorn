@@ -34,4 +34,34 @@ git remote show origin
 
 git remote add repoName repoLink
 
+// Connect local repo with new github repo
+git remote add origin repo_link
+git push -u origin master
 
+// Push new branches
+git branch branch_name
+git checkout branch_name
+git push -u origin branch_name
+
+git remote add upstream https://github.com/octocat/Spoon-Knife.git
+git remote show upstream
+
+// Delete branch locally
+git branch -d name
+
+// Delete branch on origin too
+git branch -dr name
+
+// Delete branch on server too
+git push origin --delete branchName
+
+// Rollback the changes by letting know that it reverted  becuase it creates new commit
+git revert first7CharsofCommitHash
+
+// Remove Commits as they were never there lol
+git reset --hard first7CharsOfCommitHash
+
+// Remove commits but keep those changes locally
+git reset --keep first7CharsOfCommitHash
+
+git push -f 
