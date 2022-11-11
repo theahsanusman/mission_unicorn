@@ -65,3 +65,45 @@ git reset --hard first7CharsOfCommitHash
 git reset --keep first7CharsOfCommitHash
 
 git push -f 
+
+// Rebase
+git rebase branchName
+
+Markdown language
+Heading:
+#
+##
+###
+####
+#####
+######
+
+Quote text
+> Text
+
+Quote code
+'git status'
+'''
+code
+'''
+
+Link:
+[Github Page](LINK)
+
+Unordered List:
+- item
+- item
+
+Ordered list:
+1. Item1
+2. Item2
+
+Nested:
+- first
+  - fw
+    - fwfw
+    
+Task Lists:
+- [x] finished
+- [] needs to be done
+
