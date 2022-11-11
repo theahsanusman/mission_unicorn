@@ -82,10 +82,10 @@ Quote text
 > Text
 
 Quote code
-'git status'
-'''
+`git status`
+```
 code
-'''
+```
 
 Link:
 [Github Page](LINK)
@@ -102,8 +102,10 @@ Nested:
 - first
   - fw
     - fwfw
-    
+ 
 Task Lists:
 - [x] finished
-- [] needs to be done
+- [ ] needs to be done
+
+[For further Markup Language Info]: (https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
