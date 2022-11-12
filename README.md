@@ -2,76 +2,105 @@
 
 ### Set
 git config --global user.name ""
+
 git config --global user.email ""
 
-// Get
+### Get
 git config --global user.name
+
 git config --global user.email 
 
+### Basics
 git init
-git add . (filename)
+
+git add . / (filename)
+
 git status
+
 git commit -m "first commit"
+
 git log
 
+### Branch
 git branch
+
 git branch -v
+
 git branch newBranch
+
 git checkout anotherBranch
+
 git merge mergeThisIntoABCBRanch
+
 git log branch1..branch2
 
+### Stash
 git stash
+
 git stash save <name>
+
 git stash list
+
 git stash pop
+
 git stash apply stashname
 
 git push
+
 git fetch
+
 git merge
+
 git pull
+
+### Remote
 git remote -v
+
 git remote show origin
 
 git remote add repoName repoLink
 
-// Connect local repo with new github repo
+### Connect local repo with new github repo
 git remote add origin repo_link
+
 git push -u origin master
 
-// Push new branches
+### Push new branches
 git branch branch_name
+
 git checkout branch_name
+
 git push -u origin branch_name
 
+### Adding multiple repos to local repo 
 git remote add upstream https://github.com/octocat/Spoon-Knife.git
+
 git remote show upstream
 
-// Delete branch locally
+### Delete branch locally
 git branch -d name
 
-// Delete branch on origin too
+### Delete branch on origin too
 git branch -dr name
 
-// Delete branch on server too
+### Delete branch on server too
 git push origin --delete branchName
 
-// Rollback the changes by letting know that it reverted  becuase it creates new commit
+### Rollback the changes by letting know that it reverted  becuase it creates new commit
 git revert first7CharsofCommitHash
 
-// Remove Commits as they were never there lol
+#### Remove Commits as they were never there lol
 git reset --hard first7CharsOfCommitHash
 
-// Remove commits but keep those changes locally
+### Remove commits but keep those changes locally
 git reset --keep first7CharsOfCommitHash
 
 git push -f 
 
-// Rebase
+### Rebase
 git rebase branchName
 
-Markdown language
+### Markdown language
 Heading:
 #
 ##
