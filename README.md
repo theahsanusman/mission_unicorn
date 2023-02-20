@@ -1,1 +1,1 @@
-This repo is for storing practice code of new/existing technologies to create unicorns!
+This repo is for storing practice code of next js
